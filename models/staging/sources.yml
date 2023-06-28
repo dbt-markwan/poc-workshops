@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: sa_mark_wan
+    schema: jaffle_shop  
+    tables:
+      - name: orders
+      - name: customers
+
+  - name: stripe
+    tables:
+      - name: payments
